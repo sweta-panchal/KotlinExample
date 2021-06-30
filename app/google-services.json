@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "247471374320",
+    "project_id": "fcmmoweb",
+    "storage_bucket": "fcmmoweb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247471374320:android:eeb292be0375a9fd516735",
+        "android_client_info": {
+          "package_name": "com.example.kotlinexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247471374320-dsv3k1vsqf8iqhfubsq3k8drkgg8qkeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM6X5AvXblk5bcrGHz5CTDnT1CMZnx_Ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247471374320-dsv3k1vsqf8iqhfubsq3k8drkgg8qkeg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

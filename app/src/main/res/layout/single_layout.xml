@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imv"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="72dp"
+        android:layout_height="72dp"/>
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="Title"
+        android:layout_toRightOf="@+id/imv"
+        android:layout_margin="10dp"
+        android:textColor="@color/pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:text="Description"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/txt_title"
+        android:layout_toRightOf="@+id/imv"
+        android:textColor="@color/purple_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
